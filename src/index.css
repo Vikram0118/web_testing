@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.C_name{
+    transform : translate(-120%, -50%);
+    animation: move 3s infinite paused ;
+}
+@keyframes move {
+    0%{
+        transform: translate(-120%, -50%);
+    }
+    15%{
+        transform: translate(0%, -50%);
+    }
+    80%{
+        transform: translate(0%, -50%);
+    }
+    94%{
+        transform: translate(-120%, -50%);
+    }
+    100%{
+        transform: translate(-120%, -50%);
+    }
+    
+}
